@@ -1,0 +1,102 @@
+@font-face {
+    font-family: defaultfont;
+    src: url("font.ttf");
+}
+body {
+    
+    background-color: black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+    opacity: 20%;
+}
+
+
+#dscrddsaf {
+    position: fixed;
+    margin-left: -1.2%;
+}
+
+
+#cent, #neewcent {
+    
+    text-shadow: 0 0 1em #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: defaultfont;
+    
+    display: flex;
+    color: white;
+    
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    font-size: 27px;
+    
+}
+
+#cent, #neewcent {
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cent {
+    background-color: black;
+}
+
+
+#discords:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+#app {
+    font-size: 27px;
+    text-shadow: 0 0 1em #ffffff;
+    font-family: defaultfont;
+    color: white;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+
+
+
+#backsss {
+    text-shadow: 0 0 1em #ffffff;
+    position: absolute;
+
+    font-family: defaultfont;
+    
+    display: flex;
+    color: white;
+    
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    font-size: 22px;
+
+}
+div{
+    cursor: url('cursor.png'), auto;
+}
+
